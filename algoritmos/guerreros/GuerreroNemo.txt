@@ -1,0 +1,23 @@
+inicio GuerreroNemo hereda de Guerrero 
+
+
+inicio obtenerAtaqueEspecial
+
+   retornar ATAQUE ESPECIAL: TURBO CHORRO VENENOSO AL ENEMIGO
+    
+	fin
+
+
+inicio obtenerFactorDeMuerte
+
+          retornar 1.6
+
+    fin
+
+inicio obtenerLugarOcupa
+
+            retornar 1
+
+    fin
+    
+FIN

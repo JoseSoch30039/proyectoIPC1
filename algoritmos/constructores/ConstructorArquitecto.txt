@@ -1,0 +1,35 @@
+INICIO ConstructorArquitecto hereda de Constructor 
+   
+
+Inicio obtenerNivel
+
+           retornar TIENE MUCHA EXPERIENCIA, CONOCE TODO DE MEMORIA PERO NO LE GUSTA HACER MEJORAS
+ 
+   fin
+
+
+Inicio obtenerConstruirEnTurnos
+     
+	   retornar 1
+
+    fin
+
+Inicio obtenerPrecioCompra
+
+        retornar 250
+
+   fin
+
+Inicio obtenerPrecioVenta
+
+           retornar 175
+
+    fin
+
+Inicio obtenerNave
+
+          retornar nueva NaveMillenial
+
+    fin
+
+FIN

@@ -1,0 +1,23 @@
+inicio GuerreroFisionGuy heredad de Guerrero 
+
+
+inicio obtenerAtaqueEspecial
+
+   retornar ATAQUE ESPECIAL: DISPARA RAYOS GAMA QUE DERRITEN AL ENEMIGO
+    
+	fin
+
+
+inicio obtenerFactorDeMuerte
+
+          retornar 1.95
+
+    fin
+
+inicio obtenerLugarOcupa
+
+            retornar 4
+
+    fin
+    
+FIN

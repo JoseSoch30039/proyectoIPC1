@@ -1,0 +1,27 @@
+inicio clase Nave 
+
+VAR
+
+    
+    nivel
+    espacios
+    costo
+    velocidad
+
+inicio abstracto obtenerNivel
+
+ Fin
+
+inicio abstracto obtenerCosto
+
+ Fin
+
+inicio abstracto obtenerEspacios
+
+ Fin
+
+inicio abstracto obtenerVelocidad
+
+ Fin
+
+FIN

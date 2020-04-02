@@ -1,0 +1,30 @@
+Inicio clase NaveNaboo hereda Nave  
+
+    
+Inicio obtenerNivel
+   
+     retornar BASICO
+
+   Fin
+
+  
+inicio obtenerEspacios
+       
+	  retornar 25
+
+    fin
+
+    
+inicio obtenerCosto
+       
+	 retornar 40
+
+    fin
+
+inicio obtenerVelocidad
+            
+	retornar 1.00
+    fin 
+
+    
+FIN

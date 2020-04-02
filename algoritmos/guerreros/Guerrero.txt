@@ -1,0 +1,29 @@
+INICIO Guerrero 
+
+Var 
+    
+    ataqueEspecial
+    factorDeMuerte
+    LugarOcupa
+
+
+
+inicio abstracto obtenerAtaqueEspecial
+
+
+inicio abstracto obtenerFactorDeMuerte
+
+
+inicio abstracto obtenerLugarOcupa
+
+    
+inicio mostrarGuerrero
+  
+		Escribir ataqueEspecial, factorDeMuerte, LugarOcupa		
+
+	fin 
+
+
+FIN     
+    
+

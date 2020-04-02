@@ -1,0 +1,101 @@
+Inicio PlanetaAgua hereda Planeta
+
+
+        Inicio ConstructorPlanetaAgua(dueño,nombre,cantidadDeDinero,cantidadDeConstructor,cantidadDeNave,cantidadDeGuerrero) 
+	       
+	Fin 
+
+	Inicio COnstructorPlanetaAgua
+
+	Fin 
+
+	Inicio obtenerLinea1
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+
+
+	Inicio obtenerLinea2
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+
+	Inicio obtenerLinea3
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+	
+	Inicio obtenerNombre
+
+	        retornar nombre
+    	Fin
+
+   
+	Inicio obtenrDueño 
+        
+		retornar dueño
+
+    	Fin
+    
+    
+	Inicio obtenerCuadroColor
+
+	        retornar color+caracter
+
+    	Fin
+
+	Inicio obtenerCantidadDeGuerrero
+  
+		retornar llamar.aleatorio(12,11)
+    
+	Fin
+
+	Inicio obtenerCantidadGuerreroProducido
+  
+		 retornar llamar.aleatorio(12, 11)
+    
+	Fin	
+
+	Inicio obtenerCantidadDineroProducido
+  		
+		 retornar llamr.aleatorio(60,60)
+    
+	Fin
+
+	Inicio obtenerProbabilidadAparecer
+      
+		  retornar llamar.aleatorio(1,25)
+    
+    
+	Fin
+
+
+	Inicio aleatorio(int a, int b){
+    	
+	Var
+      		int numero=a+random(b)
+      	
+        	retornar numero
+	Fin
+
+	Inicio obtenerTipoGuerrero
+      
+	var 
+		arrGuerreroNemo 
+
+        Repetir desde indice = 0; indice < arrGuerreroNemo; indice incrementa) 
+ 
+	          arrGuerreroNemo[indice]=nuevo llamarGuerreroNemo
+            
+	Fin_Repetir 
+    
+	retornar arrGuerreroNemo
+    	
+	Fin
+
+    
+    
+FIN

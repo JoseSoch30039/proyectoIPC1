@@ -1,0 +1,152 @@
+INICIO Diseño
+
+VAR 
+
+    numeroMapas
+    filas
+    columnas
+    numeroplanetasNeutrales
+    numeroMapasNeutrales
+    nombreJugadores
+    diseñoMapas
+    arrjugadores
+    arrplanetasIniciales
+    arreglosPlanetas
+
+
+inicio ingresarDatos
+
+
+	Escrbir instrucciones
+	Escribir Ingrese numero de filas
+	Leer filas
+
+	Escribrir Ingrese numero de columnas 
+	Leer columnas
+
+	Escrbiir Ingrese el numero de planetas Neutrales 
+	Leer numeroplanetasNeutrales
+
+    llamar.listadoJugadores
+
+Fin
+
+
+inicio listadoJugadores
+
+
+	arrjugadores= nuevo Jugadores[2]
+	repetir desde indice=0; indice=arrjugadores; indice incrementa;
+
+	Escribir Ingrese nombre del jugador no. indice
+	Leer nombreJugadores
+
+	fin_repetir
+
+	llamar.planetasIniciales
+Fin
+
+inicio planetasIniciales
+
+VAR
+	nombre
+	cantidadDeDinero
+	cantidadDeConstructor
+	cantidadDeNave 
+	cantidadDeGuerrer 
+	opcionTipoPlaneta
+	arrplanetasIniciales = nuevo Planeta[2]
+	
+	repetir desde indice=0; indice=arrjugadores; indice incrementa;
+	
+	Escribir Seleccione el planeta donde desea iniciar a jugar
+	Escribir 1. PLANETA TIERRA
+	Escribir 2. PLANETA AGUA
+	Escribir 3. PLANETA FUEGO
+	Escribir 4. PLANETA ORGANICO
+	Escribir 5. PLANETA RADIOACTIVO
+
+	Leer opcionTipoPlaneta
+
+	
+	Escribir ingrese el nombre de su planeta:
+        Leer nombre
+
+	Escribir ingrese la cantidad de dinero que poseera al iniciar:
+        Leer cantidadDeDinero
+
+	Escribir ingrese la cantida de constructores
+        Leer cantidadDeConstructor
+
+        Escribir ingrese la cantidad de naves 
+        Leer cantidadDeNave
+           
+	Escribir ingrese la cantidad de guerreros
+        Leer cantidadDeGuerrero
+	
+	SEGUN opcionTipoPlaneta si
+
+	CASO 1
+		llamar planetaTierra
+
+	CASO 2
+		llamar planetaAgua
+
+	CASO 3
+		llamar planetaFuego
+
+	CASO 4
+		llamar planetaOrganico
+
+	CASO 5
+		llamar planetaRadioactivo
+
+	llamar.atributosplanetas
+
+Fin
+
+inicio atributosplanetas
+
+VAR 
+	opcion 
+
+	Escribir Desea ingresar atributos a los planetas neutrales 
+	Escribir 1. SI 
+	Escribir 2. NO 
+	Leer opcion 
+	
+		SI opcion==1
+			llamar.planetasNeutrales
+		SINO SI opcion==2
+			llamar.planetasALeatorios
+		Fin_si 
+Fin
+	
+
+inicio seleccionarMapa
+
+VAR
+	 opcion
+	
+	Escribir Ingrese el numero de mapa en el que desee iniciar la partida
+	llamar.listadoMapas
+	Leer opcion 
+
+         SI diseño[mapaNumber - 1] == diseño[opcion]
+               
+                llamar.iniciarJuego
+Fin
+
+
+inicio listadoMapas
+        
+        desde indice = 0; indice < diseñoMapas; i++) {
+
+           Escribir mapa No. i+1 
+	   Escribir fila: diseñoMapas[i].obtenerFilas
+	   Escribrir columna: diseñoMapas[i].obtenerColumnas
+
+Fin
+ 
+
+	

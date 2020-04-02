@@ -1,0 +1,23 @@
+inicio GuerreroMagma heredad de Guerrero 
+
+
+inicio obtenerAtaqueEspecial
+
+   retornar ATAQUE ESPECIAL: LANZA BOLAS DE LAVA
+    
+	fin
+
+
+inicio obtenerFactorDeMuerte
+
+          retornar 1.75
+
+    fin
+
+inicio obtenerLugarOcupa
+
+            retornar 2
+
+    fin
+    
+FIN

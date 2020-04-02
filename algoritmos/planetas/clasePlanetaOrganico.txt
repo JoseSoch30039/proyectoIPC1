@@ -1,0 +1,101 @@
+Inicio PlanetaOrganico hereda Planeta
+
+
+        Inicio ConstructorPlanetaOrganico(dueño,nombre,cantidadDeDinero,cantidadDeConstructor,cantidadDeNave,cantidadDeGuerrero) 
+	       
+	Fin 
+
+	Inicio ConstructorPlanetaOrganico
+
+	Fin 
+
+	Inicio obtenerLinea1
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+
+
+	Inicio obtenerLinea2
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+
+	Inicio obtenerLinea3
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+	
+	Inicio obtenerNombre
+
+	        retornar nombre
+    	Fin
+
+   
+	Inicio obtenrDueño 
+        
+		retornar dueño
+
+    	Fin
+    
+    
+	Inicio obtenerCuadroColor
+
+	        retornar color+caracter
+
+    	Fin
+
+	Inicio obtenerCantidadDeGuerrero
+  
+		retornar llamar.aleatorio(5,15)
+    
+	Fin
+
+	Inicio obtenerCantidadGuerreroProducido
+  
+		 retornar llamar.aleatorio(5, 15)
+    
+	Fin	
+
+	Inicio obtenerCantidadDineroProducido
+  		
+		 retornar llamr.aleatorio(80,80)
+    
+	Fin
+
+	Inicio obtenerProbabilidadAparecer
+      
+		  retornar llamar.aleatorio(1,25)
+    
+    
+	Fin
+
+
+	Inicio aleatorio(int a, int b){
+    	
+	Var
+      		int numero=a+random(b)
+      	
+        	retornar numero
+	Fin
+
+	Inicio obtenerTipoGuerrero
+      
+	var 
+		arrGuerreroGroot 
+
+        Repetir desde indice = 0; indice < arrGuerreroGroot; indice incrementa) 
+ 
+	          arrGuerreroGroot[indice]=nuevo llamarGuerreroGroot
+            
+	Fin_Repetir 
+    
+	retornar arrGuerreroGroot
+    	
+	Fin
+
+    
+    
+FIN

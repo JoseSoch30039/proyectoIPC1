@@ -1,0 +1,30 @@
+Inicio clase NaveStar hereda Nave  
+
+    
+Inicio obtenerNivel
+   
+     retornar MUY AVANZADO
+
+   Fin
+
+  
+inicio obtenerEspacios
+       
+	  retornar 80
+
+    fin
+
+    
+inicio obtenerCosto
+       
+	 retornar 100
+
+    fin
+
+inicio obtenerVelocidad
+            
+	retornar 1.75
+    fin 
+
+    
+FIN

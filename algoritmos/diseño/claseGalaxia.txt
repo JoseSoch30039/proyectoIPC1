@@ -1,0 +1,89 @@
+Inicio clase Galaxia
+
+
+VAR 
+ 
+    planeta
+
+inicio Galaxia 
+
+	planeta==vacio
+Fin 
+
+inicio Planeta obtenerPlaneta
+	
+	retronar planeta
+
+Fin 
+
+
+inicio iniciarTierra
+
+VAR 	
+	tierra
+	
+	planeta=tierra
+
+Fin
+
+inicio iniciarFuego
+
+VAR 	
+	fuego
+	
+	planeta=fuego
+
+Fin
+
+inicio iniciarAgua
+
+VAR 	
+	agua
+	
+	planeta=agua
+
+Fin
+
+inicio iniciarOrganico
+
+VAR 	
+	organico
+	
+	planeta=organico
+
+Fin
+
+inicio iniciarRadioactivo
+
+VAR 	
+	radioactivo
+	
+	planeta=radioactivo
+
+Fin
+
+Inicio obtenerLinea1
+
+	si planeta==null
+		retornar ######
+	sino si 
+		retornar planeta.obtenerlinea1
+Fin
+
+Inicio obtenerLinea2
+
+	si planeta==null
+		retornar ######
+	sino si 
+		retornar planeta.obtenerlinea2
+Fin
+
+Inicio obtenerLinea3
+
+	si planeta==null
+		retornar ######
+	sino si 
+		retornar planeta.obtenerlinea3
+Fin
+
+

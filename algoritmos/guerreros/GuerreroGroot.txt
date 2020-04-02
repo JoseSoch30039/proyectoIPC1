@@ -1,0 +1,23 @@
+inicio GuerreroGroot heredad de Guerrero 
+
+
+inicio obtenerAtaqueEspecial
+
+   retornar ATAQUE ESPECIAL: TOCAR EL SUELO Y TENER ENREDADERAS TRAMAPA
+    
+	fin
+
+
+inicio obtenerFactorDeMuerte
+
+          retornar 1.85
+
+    fin
+
+inicio obtenerLugarOcupa
+
+            retornar 3
+
+    fin
+    
+FIN

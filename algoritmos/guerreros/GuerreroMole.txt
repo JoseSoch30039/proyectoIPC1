@@ -1,0 +1,23 @@
+inicio GuerreroMole heredad de Guerrero 
+
+
+inicio obtenerAtaqueEspecial
+
+   retornar ATAQUE ESPECIAL: ENTIERRA A SUS VICTIMAS
+    
+	fin
+
+
+inicio obtenerFactorDeMuerte
+
+          retornar 1.5
+
+    fin
+
+inicio obtenerLugarOcupa
+
+            retornar 1
+
+    fin
+    
+FIN

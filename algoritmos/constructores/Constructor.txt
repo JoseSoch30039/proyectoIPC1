@@ -1,0 +1,36 @@
+INICIO Constructor 
+
+VAR
+
+    nivel
+    construirEnTurnos
+    precioCompra
+    precioVenta
+    nave
+
+    
+Inicio Constructor
+
+        nivel = obtenerNivel
+        construirEnTurnos = obtenrConstruirEnTurnos
+        precioCompra = obtenerPrecioCompra
+        precioVenta =obtenerPrecioVenta
+        nave = obtenerNave
+    
+    fin
+
+    
+       
+
+inicio abstracto obtenerNivel
+
+inicio abstracto obtenerConstruirEnTurnos
+
+inicio abstracto obtenerPrecioCompra
+
+inicio abstracto obtenerPrecioVenta
+
+    
+inicio abstracto obtenerNave
+    
+FIN

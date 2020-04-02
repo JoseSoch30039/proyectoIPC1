@@ -1,0 +1,23 @@
+inicio Jugador 
+
+
+VAR 
+	
+	nombre
+
+
+inicio Jugador(nombre)
+       
+	 nombre=nombre
+
+    fin
+
+inicio obtenerNombre
+
+        retornar nombre
+    
+    fin
+
+
+ 
+FIN

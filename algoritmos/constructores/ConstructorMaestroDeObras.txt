@@ -1,0 +1,35 @@
+INICIO ConstructorMaestroDeObra hereda de Constructor 
+   
+
+Inicio obtenerNivel
+
+           retornar TIENE EXPERIENCIA, PERO NO TIEN BUENA MEMORIA
+ 
+   fin
+
+
+Inicio obtenerConstruirEnTurnos
+     
+	   retornar 2
+
+    fin
+
+Inicio obtenerPrecioCompra
+
+        retornar 100
+
+   fin
+
+Inicio obtenerPrecioVenta
+
+           retornar 70
+
+    fin
+
+Inicio obtenerNave
+
+          retornar nueva NaveXWing
+
+    fin
+
+FIN

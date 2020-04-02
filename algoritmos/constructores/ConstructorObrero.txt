@@ -1,0 +1,35 @@
+INICIO ConstructorObrero hereda de Constructor 
+   
+
+Inicio obtenerNivel
+
+           retornar APRENDIZ, LE LLEVA MAS TIEMPO TRABAJAR
+ 
+   fin
+
+
+Inicio obtenerConstruirEnTurnos
+     
+	   retornar 3
+
+    fin
+
+Inicio obtenerPrecioCompra
+
+        retornar 50
+
+   fin
+
+Inicio obtenerPrecioVenta
+
+           retornar 40
+
+    fin
+
+Inicio obtenerNave
+
+          retornar nueva NaveMillenial
+
+    fin
+
+FIN

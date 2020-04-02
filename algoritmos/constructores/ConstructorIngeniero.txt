@@ -1,0 +1,35 @@
+INICIO ConstructorIngeniero hereda de Constructor 
+   
+
+Inicio obtenerNivel
+
+           retornar SE LA SABE TODAS Y NO TIENE MIEDO DE HACER LO QUE SEA NECESARIO
+ 
+   fin
+
+
+Inicio obtenerConstruirEnTurnos
+     
+	   retornar 1
+
+    fin
+
+Inicio obtenerPrecioCompra
+
+        retornar 300
+
+   fin
+
+Inicio obtenerPrecioVenta
+
+           retornar 200
+
+    fin
+
+Inicio obtenerNave
+
+          retornar nueva NaveStarDestroyer
+
+    fin
+
+FIN

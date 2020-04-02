@@ -1,0 +1,30 @@
+Inicio clase NaveXWing hereda Nave  
+
+    
+Inicio obtenerNivel
+   
+     retornar INTERMEDIO
+
+   Fin
+
+  
+inicio obtenerEspacios
+       
+	  retornar 42
+
+    fin
+
+    
+inicio obtenerCosto
+       
+	 retornar 50
+
+    fin
+
+inicio obtenerVelocidad
+            
+	retornar 1.25
+    fin 
+
+    
+FIN

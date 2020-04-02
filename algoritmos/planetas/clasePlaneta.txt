@@ -1,0 +1,84 @@
+Clase Planeta
+INICIO Planeta
+
+var 
+
+    dueño
+    nombre
+    porcentajeDeMuerte
+    cantidadDeDinero
+    cantidadDeConstructor
+    cantidadDeNave
+    cantidadDeGuerrero
+    tipoGuerrero;
+    probabilidadAparecer
+    cantidadGuerreroProducido
+    cantidadDineroProducido
+
+inicio  ConstructorPlaneta
+
+Fin
+
+inicio abstracto obtenrDueño
+
+Fin
+
+inicio abstracto obtenerNombre
+
+Fin
+
+inicio obtenerDinero
+
+var 
+	numeroaleatorio
+	
+	numeroAleatorio=random(400)
+
+retornar numeroAleatrio
+
+Fin 
+
+inicio cantidadDeNaves
+
+var 
+
+	numeroALeatorioDeNaves
+
+	
+	numeroALeatorioDeNaves=random(3)
+
+retornar numeroALeatorioDeNaves
+
+Fin
+
+inicio probabilidadDeMuerte
+
+var 
+	probabilidad
+
+	probabilidad=random(.45)
+
+retornar probabilidad
+
+Fin 
+
+Inicio abstracto obtenerCantidadGuerreroProducido
+
+Fin
+
+Inicio abstracto obtenerCantidadGuerreros
+
+Fin
+
+Inicio abstracto obtenerProbabilidadDeAparecer
+
+Fin
+
+Inicio abstracto obtenerTipoDeGuerrero
+
+Fin
+
+
+
+
+FIN

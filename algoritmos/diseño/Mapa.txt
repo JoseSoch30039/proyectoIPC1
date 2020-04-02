@@ -1,0 +1,45 @@
+Inicio clase Mapa 
+  
+VAR 
+  
+    filas
+    columnas
+    numeroMapasNeutrales
+
+  
+Inicio Mapa(int filas, int columnas, int mapasNeutrales)
+ 	
+	filas=filas
+        columnas=columnas
+        numeroMapasNeutrales=numeroMapasNeutrales
+    
+
+inicio obtenrFilas
+ 
+       retornar filas
+ 
+Fin
+
+
+inicio obtenerColumnas
+
+        retornar columnas
+
+fin
+
+inicio obtenrNumeroMapasNeutrales
+    
+    retornar numeroMapasNeutrales
+
+Fin 
+ 
+inicio iniciarJuego
+  
+	Juego juego =nuevo Juego
+	juego llamar jugar
+
+    Fin
+
+    
+FIN
+

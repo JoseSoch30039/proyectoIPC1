@@ -1,0 +1,11 @@
+inicio clase Arranque
+
+inicio Arranque 
+
+	Diseño diseñar=new Diseño
+
+	diseñar llamar ingresarDatos
+
+    fin
+
+FIN

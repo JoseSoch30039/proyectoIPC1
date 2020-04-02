@@ -1,0 +1,101 @@
+Inicio PlanetaRadioactivo hereda Planeta
+
+
+        Inicio ConstructorPlanetaRadioactivo(dueño,nombre,cantidadDeDinero,cantidadDeConstructor,cantidadDeNave,cantidadDeGuerrero) 
+	       
+	Fin 
+
+	Inicio COnstructorPlanetaRadioactivo
+
+	Fin 
+
+	Inicio obtenerLinea1
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+
+
+	Inicio obtenerLinea2
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+
+	Inicio obtenerLinea3
+
+		retornar llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor+llamar.cuadroColor
+
+	Fin
+	
+	Inicio obtenerNombre
+
+	        retornar nombre
+    	Fin
+
+   
+	Inicio obtenrDueño 
+        
+		retornar dueño
+
+    	Fin
+    
+    
+	Inicio obtenerCuadroColor
+
+	        retornar color+caracter
+
+    	Fin
+
+	Inicio obtenerCantidadDeGuerrero
+  
+		retornar llamar.aleatorio(3,6)
+    
+	Fin
+
+	Inicio obtenerCantidadGuerreroProducido
+  
+		 retornar llamar.aleatorio(3, 6)
+    
+	Fin	
+
+	Inicio obtenerCantidadDineroProducido
+  		
+		 retornar llamr.aleatorio(90,90)
+    
+	Fin
+
+	Inicio obtenerProbabilidadAparecer
+      
+		  retornar llamar.aleatorio(1,5)
+    
+    
+	Fin
+
+
+	Inicio aleatorio(int a, int b){
+    	
+	Var
+      		int numero=a+random(b)
+      	
+        	retornar numero
+	Fin
+
+	Inicio obtenerTipoGuerrero
+      
+	var 
+		arrGuerreroFisionGuy 
+
+        Repetir desde indice = 0; indice < arrGuerreroFisionGuy; indice incrementa) 
+ 
+	          arrGuerreroFisionGuy[indice]=nuevo llamarGuerreroFisionGuy
+            
+	Fin_Repetir 
+    
+	retornar arrGuerreroFisionGuy
+    	
+	Fin
+
+    
+    
+FIN

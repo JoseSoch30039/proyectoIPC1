@@ -1,0 +1,95 @@
+Inicio clase Juego
+
+
+VAR 
+	filas
+	columnas
+	planetasNeutrales
+	arrplanetasIniciales
+	arregloPlanetas
+  
+	arrtablero [][] 
+
+inicio Juego(int filas, int columnas, int planetasNeutrales )
+	arrplanetasIniciales[2]
+	arrtablero[filas][columnas]
+	planetasNeutrales=planetasNeutrales
+
+fin 
+
+inicio jugar
+
+	llamar.iniciar
+	llamar.pintar
+
+fin
+
+inicio obtenerArregloPlanetas
+
+	retornar arregloPlanetas
+
+fin
+
+
+inicio iniciar 
+
+Var 
+	vacio
+	entero1
+	entrero2
+	
+	desde indice=0; hasta indice<filas; indice incrementa
+
+		desde indice1=0; hasta indice1<columnas; indice incrementa
+
+			tablero[indice][indice1]=nueva llamar.Galaxia
+	fin_desde
+	
+        
+        desde  i = 0; hasta i < planetasIniciales; i++)
+            vacio=verdadero
+            SEGUN planetasInicial[i]
+                CASO 1
+                  llamar.planetaTierra
+
+                Caso 2 
+
+		llamar.planetaAgua
+                
+		Caso 3 
+
+		llamar.planetaFuego
+
+               caso 4
+
+		llamar.planetaOrganico
+
+		caso 5
+		
+		llamar.planetaRadioactivo
+
+	Fin_desde
+
+iniciar pintar
+
+
+	desde indice =0; hasta indice<filas; indice incrementa
+		
+		desde indice1=0; hasta indice <columnas; indice incrementa ;
+
+			linea1 =arrtablero[indice][indice1] llamar.obtenerlinea1
+			linea2 =arrtablero[indice][indice1] llamar.obtenerlinea2
+			linea3 =arrtablero[indice][indice1] llamar.obtenerlinea3
+
+		fin_desde
+	fin_desde
+       		Escribir linea1
+       		Escribir linea2
+       		Escribir linea3
+
+   fin
+
+
+FIN
+
+
